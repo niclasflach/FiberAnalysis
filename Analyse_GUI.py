@@ -137,6 +137,8 @@ def performAnalysis():
             cv2.circle(img_temp, max_loc , 3,(0,255,0),1)
             cv2.line(img_temp,text_pos,max_loc,text_color,2)
             cv2.imshow('Distance transform', img_temp)
+    cv2.imshow("Result",result)
+    
     
     pass
 def updatedLowerThresh(value_thresh):
